@@ -1,3 +1,11 @@
-h1{
+nav, #bizTitle{
+    font-family:Papyrus,Fantasy,Serif;
+}
+.navbar-brand{
+    font-weight: bold;
+}
 
+h1{
+    text-align: center;
+    font-family: Papyrus,Fantasy,Serif;
 }

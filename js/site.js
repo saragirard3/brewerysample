@@ -1,8 +1,13 @@
 var content;
+var header;
+let body;
 
 window.onload = function (){
-    content = document.getElementById('content');
-    content.innerHTML = "<h1>Welcome to the Brewery!</h1>";
+    header = document.getElementById('contentHeader');
+    body = document.getElementById('contentBody');
+
+    header.innerHTML = "<h1>Girard Brewery</h1>";
+    body.innerHTML = "body test";
     
     document.getElementById('beer').addEventListener('click',beer);
     document.getElementById('taproom').addEventListener('click',taproom);
@@ -14,31 +19,43 @@ window.onload = function (){
 }
 
 function beer(e){
-    content.innerHTML = "this is another test - selected beer";
+    header.innerHTML = "<h1>Beer</h1>";
+    body.innerHTML="<p>Here is the beer listing</p>";
 }
 
 function taproom(e){
-    content.innerHTML = "taproom test";
+    header.innerHTML = "<h1>Taproom</h1>";
+    body.innerHTML = "";
 }
 
 function story(e){
-    content.innerHTML = "story";
+    header.innerHTML = "<h1>Story</h1>";
+    body.innerHTML = "";
+
 }
 
 function shop(e){
-    content.innerHTML = "shop";
+    header.innerHTML = "<h1>Shop</h1>";
+    body.innerHTML = "";
+
 }
 
 function events(e){
-    content.innerHTML = "events page";
+    header.innerHTML = "<h1>Events</h1>";
+    body.innerHTML = "";
+
 }
 
 function contact(e){
-    content.innerHTML = "contact us";
+    header.innerHTML = "<h1>Contact</h1>";
+    body.innerHTML = "";
+
 }
 
 function beerFinder(e){
-    content.innerHTML = "beerFINDer page";
+    header.innerHTML = "<h1>BeerFinder</h1>";
+    body.innerHTML = "";
+
 }
 
 
