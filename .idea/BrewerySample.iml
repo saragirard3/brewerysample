@@ -11,5 +11,8 @@
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="@types/jquery" level="application" />
     <orderEntry type="library" name="jquery-3.5.0" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="2f7f70302c" level="application" />
+    <orderEntry type="library" name="jquery-3.5.0" level="application" />
   </component>
 </module>
