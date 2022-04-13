@@ -5,6 +5,10 @@ nav, #bizTitle{
     font-weight: bold;
 }
 
+.refContr{
+    font-size: small;
+}
+
 h1{
     text-align: center;
     font-family: Papyrus,Fantasy,Serif;

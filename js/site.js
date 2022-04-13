@@ -1,4 +1,3 @@
-// let content;
 let header;
 let body;
 
@@ -7,56 +6,54 @@ window.onload = function (){
     body = document.getElementById('contentBody');
 
     header.innerHTML = "<h1>Girard Brewery</h1>";
-    body.innerHTML = "body test";
+    body.innerHTML =
+        'MAIN PAGE!';
     
     document.getElementById('beer').addEventListener('click',beer);
     document.getElementById('taproom').addEventListener('click',taproom);
     document.getElementById('story').addEventListener('click',story);
-    document.getElementById('shop').addEventListener('click',shop);
     document.getElementById('events').addEventListener('click',events);
     document.getElementById('contact').addEventListener('click', contact);
-    document.getElementById('beerFinder').addEventListener('click',beerFinder);
+    document.getElementById('reference').addEventListener('click',refAndCont);
 }
 
+//-------------------------------EVENT LISTENERS---------------------------------------------------------------------
 function beer(e){
     header.innerHTML = "<h1>Beer</h1>";
-    // body.innerHTML= `<div id='beerHtml'>${'./html/beer.html'}</div>`;
-    // $('#contentBody').append('#beerHtml');
+    body.innerHTML="";
+    body.appendChild(beerContent)
 }
 
 function taproom(e){
     header.innerHTML = "<h1>Taproom</h1>";
-    body.innerHTML = "";
+    body.innerHTML="";
+    body.appendChild(taproomContent);
 }
 
 function story(e){
     header.innerHTML = "<h1>Story</h1>";
-    body.innerHTML = "";
-
-}
-
-function shop(e){
-    header.innerHTML = "<h1>Shop</h1>";
-    body.innerHTML = "";
+    body.innerHTML="";
+    body.appendChild(storyContent);
 
 }
 
 function events(e){
     header.innerHTML = "<h1>Events</h1>";
-    body.innerHTML = "";
+    body.innerHTML="";
+    body.appendChild(eventsContent);
 
 }
 
 function contact(e){
     header.innerHTML = "<h1>Contact</h1>";
-    body.innerHTML = "";
-
+    body.innerHTML="";
+    body.appendChild(contactContent);
 }
 
-function beerFinder(e){
-    header.innerHTML = "<h1>BeerFinder</h1>";
-    body.innerHTML = "";
-
+function refAndCont(e){
+    header.innerHTML = "<h1>References and Contributions</h1>";
+    body.innerHTML="";
+    body.appendChild(referenceContribution);
 }
 
-
+//--------------------------------------END EVENT LISTENERS---------------------------------------------------------
