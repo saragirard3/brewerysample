@@ -1,5 +1,5 @@
-var content;
-var header;
+// let content;
+let header;
 let body;
 
 window.onload = function (){
@@ -20,7 +20,8 @@ window.onload = function (){
 
 function beer(e){
     header.innerHTML = "<h1>Beer</h1>";
-    body.innerHTML="<p>Here is the beer listing</p>";
+    // body.innerHTML= `<div id='beerHtml'>${'./html/beer.html'}</div>`;
+    // $('#contentBody').append('#beerHtml');
 }
 
 function taproom(e){
