@@ -31,7 +31,7 @@ h1{
     font-weight: bold;
     color: #EEEBDD;
     font-family: Papyrus,Fantasy,Serif;
-    background-image: url("/images/beersign.jpg");
+    background-image: url(../images/beersign.jpg);
     border-color: #630000;
     border-style: ridge;
     border-width: thin;

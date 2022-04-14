@@ -6,7 +6,7 @@ window.onload = function (){
     body = document.getElementById('contentBody');
 
     header.innerHTML = "<h1>Girard Brewery</h1>" +
-        "<img src='/images/beersign.jpg' alt='Beer Sign'>";
+        "<img src='./images/beersign.jpg' alt='Beer Sign'>";
     body.innerHTML =
         'MAIN PAGE!';
     
@@ -21,7 +21,7 @@ window.onload = function (){
 //-------------------------------EVENT LISTENERS---------------------------------------------------------------------
 function beer(e){
     header.innerHTML = "<h1>Beer</h1>" +
-    "<img src='/images/beercooler.jpg' alt='Beer Cooler'>";
+    "<img src='./images/beercooler.jpg' alt='Beer Cooler'>";
     body.innerHTML="";
     body.appendChild(beerContent)
 }
@@ -29,14 +29,14 @@ function beer(e){
 function taproom(e){
     header.innerHTML = "" +
         "<h1 id='taproomHead'>Taproom</h1>" +
-        "<img src='/images/tapcloseup.jpg' alt='Tap Close Up'>";
+        "<img src='./images/tapcloseup.jpg' alt='Tap Close Up'>";
     body.innerHTML="";
     body.appendChild(taproomContent);
 }
 
 function story(e){
     header.innerHTML = "<h1>Story</h1>" +
-        "<img src='/images/barrels.jpg' alt='Barrels'>";
+        "<img src='./images/barrels.jpg' alt='Barrels'>";
     body.innerHTML="";
     body.appendChild(storyContent);
 
@@ -44,7 +44,7 @@ function story(e){
 
 function events(e){
     header.innerHTML = "<h1>Events</h1>" +
-        "<img src='/images/cheers.jpg' alt='Cheers'>";
+        "<img src='./images/cheers.jpg' alt='Cheers'>";
     body.innerHTML="";
     body.appendChild(eventsContent);
 
@@ -52,7 +52,7 @@ function events(e){
 
 function contact(e){
     header.innerHTML = "<h1>Contact</h1>" +
-        "<img src='/images/hopsandbeer.jpg' alt='Hops and Beer'>";
+        "<img src='./images/hopsandbeer.jpg' alt='Hops and Beer'>";
     body.innerHTML="";
     body.appendChild(contactContent);
 }
