@@ -37,7 +37,9 @@ h1{
     border-width: thin;
 
 }
-
+ul{
+    list-style-type:none;
+}
 h2,h3,h4{
     font-weight: bold;
     font-family: Papyrus,Fantasy,Serif;

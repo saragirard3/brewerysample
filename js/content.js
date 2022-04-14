@@ -30,7 +30,28 @@ taproomContent.innerHTML =
             'Friday-Saturday 12:00pm - 11:00pm</p>'+
         '</div>' +
     '</div>' +
-    '</div>';
+    '</div>' +
+    '<hr>' +
+    '<div class="row"><div class="col-6">' +
+    '<img src="./images/pour.jpg" alt="Pour"></div>' +
+    '<div class="col-6">' +
+    '<h2>On Tap</h2><br>' +
+    '<p><h4>Now pouring:</h4></p>' +
+    '<ul>' +
+    '<li>Logerit</li>' +
+    '<li>Pale devAle-ope-r (MN Fav!)</li>' +
+    '<li>Java Stout</li>' +
+    '<li>DROP TABLE; IPA</li></ul>' +
+    '</div></div><hr>' +
+    '<div class="row"><div class="col-6">' +
+    '<h2>Food</h2>' +
+    '<p>We don\'t serve food. However, we have pretzels and chips available for purchase. Feel free' +
+    'to bring in your own food from one of Anywhere\'s local restuarants.</p>' +
+    '</div>' +
+    '<div class="col-6">' +
+    '<h2>Loyalty Program</h2>' +
+    '<p>Join our loyalty program and start earning rewards! Unlock $5 for 100 points and get a welcome of 25 bonus points when you sign up.</p>' +
+    '</div></div>';
 
 //---- end taproom
 

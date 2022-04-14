@@ -19,14 +19,14 @@ window.onload = function (){
 }
 
 //-------------------------------EVENT LISTENERS---------------------------------------------------------------------
-function beer(e){
+function beer(){
     header.innerHTML = "<h1>Beer</h1>" +
     "<img src='./images/beercooler.jpg' alt='Beer Cooler'>";
     body.innerHTML="";
     body.appendChild(beerContent)
 }
 
-function taproom(e){
+function taproom(){
     header.innerHTML = "" +
         "<h1 id='taproomHead'>Taproom</h1>" +
         "<img src='./images/tapcloseup.jpg' alt='Tap Close Up'>";
@@ -34,7 +34,7 @@ function taproom(e){
     body.appendChild(taproomContent);
 }
 
-function story(e){
+function story(){
     header.innerHTML = "<h1>Story</h1>" +
         "<img src='./images/barrels.jpg' alt='Barrels'>";
     body.innerHTML="";
@@ -42,7 +42,7 @@ function story(e){
 
 }
 
-function events(e){
+function events(){
     header.innerHTML = "<h1>Events</h1>" +
         "<img src='./images/cheers.jpg' alt='Cheers'>";
     body.innerHTML="";
@@ -50,14 +50,14 @@ function events(e){
 
 }
 
-function contact(e){
+function contact(){
     header.innerHTML = "<h1>Contact</h1>" +
         "<img src='./images/hopsandbeer.jpg' alt='Hops and Beer'>";
     body.innerHTML="";
     body.appendChild(contactContent);
 }
 
-function refAndCont(e){
+function refAndCont(){
     header.innerHTML = "<h1>References and Contributions</h1>";
     body.innerHTML="";
     body.appendChild(referenceContribution);
