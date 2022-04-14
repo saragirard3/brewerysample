@@ -1,6 +1,13 @@
 nav, #bizTitle{
     font-family:Papyrus,Fantasy,Serif;
 }
+#navBackground{
+    background-color: #D8B6A4;
+    border-color: #630000;
+    border-spacing: 100px;
+    border-width: 5px;
+    border-style: double;
+}
 .navbar-brand{
     font-weight: bold;
 }
@@ -10,6 +17,47 @@ nav, #bizTitle{
 }
 
 h1{
+    /*-webkit-text-stroke: thin black;*/
+    text-shadow:
+            -1px -1px 0px #000,
+            0px -1px 0px #000,
+            1px -1px 0px #000,
+            -1px  0px 0px #000,
+            1px  0px 0px #000,
+            -1px  1px 0px #000,
+            0px  1px 0px #000,
+            1px  1px 0px #000;
     text-align: center;
+    font-weight: bold;
+    color: #EEEBDD;
     font-family: Papyrus,Fantasy,Serif;
+    background-image: url("/images/beersign.jpg");
+    border-color: #630000;
+    border-style: ridge;
+    border-width: thin;
+
+}
+
+h2,h3,h4{
+    font-weight: bold;
+    font-family: Papyrus,Fantasy,Serif;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-color: #630000;
+    width: 40%;
+    /*height: 350px;*/
+}
+
+#footerCSS{
+    background-color: #D8B6A4;
+}
+
+head,body{
+    background-color: #EEEBDD;
+    font-family: Helvetica, SansSerif, Serif;
 }
