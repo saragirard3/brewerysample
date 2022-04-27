@@ -12,5 +12,6 @@ referenceContribution.innerHTML =
     '<li><a href="https://unsplash.com/photos/OMIgwm1i_NY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">"Hops and Beer" by Missy Fant </a></li>' +
     '<li><a href="https://unsplash.com/photos/gvm_Kmm3-9o?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">"Cheers" by Des Récits </a></li>' +
     '<li><a href="https://unsplash.com/photos/1MqDCpA-2hU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">"Beer Splash" by Pradnyal Gandhi </a></li>' +
+    '<li>Beer descriptions and site were inspired by Castle Danger Brewery in Two Harbors, MN (visit them <a href="https://www.castledangerbrewery.com/">here</a></li>' +
     '</ol></div>' +
     '<div>This project was fun and I appreciate all the resources made available to me!!</div>';
