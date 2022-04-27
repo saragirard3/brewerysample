@@ -62,4 +62,7 @@ img{
 head,body{
     background-color: #EEEBDD;
     font-family: Helvetica, SansSerif, Serif;
+    padding-bottom: 3%;
+    overflow: auto;
+
 }

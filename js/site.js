@@ -8,7 +8,15 @@ window.onload = function (){
     header.innerHTML = "<h1>Girard Brewery</h1>" +
         "<img src='./images/beersign.jpg' alt='Beer Sign'>";
     body.innerHTML =
-        'MAIN PAGE!';
+        '<div class="container-fluid">' +
+            '<div class="row"><div class="col">' +
+                '<h2>Welcome!</h2>' +
+            '</div></div>' +
+            '<div class="row"><div class="col">' +
+                '<p>Check out the site, then come down and enjoy a beer with us.</p>' +
+                '<hr>' +
+                '<p></p>' +
+            '</div></div>';
     
     document.getElementById('beer').addEventListener('click',beer);
     document.getElementById('taproom').addEventListener('click',taproom);
