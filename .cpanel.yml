@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/girasgpm/public_html/
+    - export DEPLOYPATH=/home/girasgpm/public_html/brewerysample
     - /bin/cp -R * $DEPLOYPATH
