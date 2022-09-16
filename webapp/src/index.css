@@ -51,8 +51,9 @@ img{
   margin-right: auto;
   border-style: outset;
   border-color: #630000;
-  width: 40%;
-  /*height: 350px;*/
+  width: 20%;
+  /*height: 40%;*/
+  object-fit: contain;
 }
 
 #footerCSS{

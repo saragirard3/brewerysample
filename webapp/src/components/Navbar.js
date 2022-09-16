@@ -10,15 +10,15 @@ export default function Navbar(){
     const pages = ['beer', 'taproom', 'story', 'events', 'contact'];
 
     return(
-        <div className="navbar" sx={{ backgroundColor:'#C2DED1' }}>
-            <Box sx={{ flexGrow: 1, backgroundColor:'#C2DED1' }}>
+        <div className="navbar" sx={{ backgroundColor:'#D8B6A4' }}>
+            <Box sx={{ flexGrow: 1, backgroundColor:'#D8B6A4' }}>
                 <AppBar position="static" sx={{
                     mr: 2,
                     display: { xs: 'none', md: 'flex' },
-                    fontFamily: 'Arial, Helvetica, sans-serif',
+                    fontFamily: 'Papyrus,Fantasy,Serif',
                     fontWeight: 700,
                     letterSpacing: '.1rem',
-                    backgroundColor: '#354259',
+                    backgroundColor: '#630000',
                     textDecoration: 'none',
                 }}>
                     <Toolbar >
@@ -28,21 +28,21 @@ export default function Navbar(){
                             sx={{
                                 mr: 2,
                                 display: { xs: 'none', md: 'flex' },
-                                fontFamily: 'Arial, Helvetica, sans-serif',
+                                fontFamily: 'Papyrus,Fantasy,Serif',
                                 fontWeight: 700,
                                 letterSpacing: '.1rem',
-                                color: '#CDC2AE',
+                                color: '#D8B6A4',
                                 textDecoration: 'none',
                                 textTransform: 'uppercase',
                             }}
-                        ><Link style={{textDecoration:"none", color:"#C2DED1"}} to={`/`}>Girard Brewery</Link>
+                        ><Link style={{textDecoration:"none", color:"#D8B6A4"}} to={`/brewerysample/`}>Girard Brewery</Link>
 
                         </Typography>
 
                         {pages.map((page) => (
                             <MenuItem key={page}>
                                 <Typography textAlign="center">
-                                    <Link style={{textDecoration:"none", color:"#CDC2AE",textTransform: 'capitalize',}} to={`/${page}`}>{page}</Link>
+                                    <Link style={{textDecoration:"none", color:"#D8B6A4",textTransform: 'capitalize',}} to={`/brewerysample/${page}`}>{page}</Link>
                                 </Typography>
                             </MenuItem>
                         ))}

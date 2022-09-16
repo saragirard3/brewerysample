@@ -10,27 +10,32 @@ import Taproom from "./components/Taproom";
 import Story from "./components/Story";
 import Contact from "./components/Contact";
 import Events from "./components/Events";
+import RefAndComp from "./components/RefAndComp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <Navbar />
+    <div className={"container-fluid"}>
+      <Router>
+        <Navbar />
 
 
-      <Routes>
-        <Route exact path="/" element={<Main />} />
-        <Route path="/beer" element={<Beer />}/>
-        <Route path="/taproom" element={<Taproom />} />
-          <Route path="/story" element={<Story />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/Contact" element={<Contact />} />
+        <Routes>
+          <Route path="/brewerysample/" element={<Main />} />
+          <Route path="/brewerysample/beer" element={<Beer />}/>
+          <Route path="/brewerysample/taproom" element={<Taproom />} />
+            <Route path="/brewerysample/story" element={<Story />} />
+            <Route path="/brewerysample/events" element={<Events />} />
+            <Route path="/brewerysample/contact" element={<Contact />} />
+          <Route path="/brewerysample/refandcomp" element={<RefAndComp />} />
 
-      </Routes>
 
-      {/*<Footer />*/}
+        </Routes>
 
-    </Router>
+        <Footer />
+
+      </Router>
+    </div>
 
   </React.StrictMode>
 );

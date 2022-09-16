@@ -9,13 +9,13 @@ export default function Main(){
             </div>
 
             <div className="container-fluid mainContent">
-                <div class="row">
-                    <div class="col">
+                <div className="row">
+                    <div className="col">
                         <h2>Welcome!</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
+                <div className="row">
+                    <div className="col">
                         <p>Check out the site, then come down and enjoy a beer with us.</p>
                         <hr />
                         <p />

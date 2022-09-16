@@ -1,6 +1,6 @@
 {
   "name": "webapp",
-  "homepage": "https://www.girardtechie.icu/brewerysample",
+  "homepage": "https://www.girardtechie.icu/brewerysample/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
