@@ -24,15 +24,20 @@ root.render(
           <Route path="/brewerysample/" element={<Main />} />
           <Route path="/brewerysample/beer" element={<Beer />}/>
           <Route path="/brewerysample/taproom" element={<Taproom />} />
-            <Route path="/brewerysample/story" element={<Story />} />
-            <Route path="/brewerysample/events" element={<Events />} />
-            <Route path="/brewerysample/contact" element={<Contact />} />
-          <Route path="/brewerysample/refandcomp" element={<RefAndComp />} />
+          <Route path="/brewerysample/story" element={<Story />} />
+          <Route path="/brewerysample/events" element={<Events />} />
+          <Route path="/brewerysample/contact" element={<Contact />} />
 
 
         </Routes>
 
         <Footer />
+
+        <Routes>
+
+          <Route path="/brewerysample/RefAndComp" element={<RefAndComp />} />
+
+        </Routes>
 
       </Router>
     </div>

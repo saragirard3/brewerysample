@@ -8,7 +8,7 @@ export default function Footer(){
                     <div>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item refContr" id="reference">
-                                <a className="nav-link" href={`/brewerysample/refandcomp`}>References & Contributions</a>
+                                <a className="nav-link" href={`/brewerysample/RefAndComp`}>References & Contributions</a>
                             </li>
                         </ul>
                     </div>
