@@ -35,14 +35,14 @@ export default function Navbar(){
                                 textDecoration: 'none',
                                 textTransform: 'uppercase',
                             }}
-                        ><Link style={{textDecoration:"none", color:"#D8B6A4"}} to={`/brewerysample/`}>Girard Brewery</Link>
+                        ><Link style={{textDecoration:"none", color:"#D8B6A4"}} to={`/`}>Girard Brewery</Link>
 
                         </Typography>
 
                         {pages.map((page) => (
                             <MenuItem key={page}>
                                 <Typography textAlign="center">
-                                    <Link style={{textDecoration:"none", color:"#D8B6A4",textTransform: 'capitalize',}} to={`/brewerysample/${page}`}>{page}</Link>
+                                    <Link style={{textDecoration:"none", color:"#D8B6A4",textTransform: 'capitalize',}} to={`/${page}`}>{page}</Link>
                                 </Typography>
                             </MenuItem>
                         ))}
